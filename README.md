@@ -16,3 +16,5 @@ The program solves using three different methods: the Shooting Collocation Metho
 5. **Plotting**: The `plot_profiles` function plots the velocity and temperature profiles obtained from the three different methods (SCM, GWRM, and ANN).
 
 6. **Execution**: The script sets the initial conditions, calls the `solve_scm`, `solve_gwrm`, and `train_ann` functions, and then uses the `predict_ann` function to generate the ANN predictions. Finally, it calls the `plot_profiles` function to display the results.
+
+![graph](https://github.com/vamangsm03/Multi-Variable-Simulation/assets/153520105/df0843ec-339e-4c04-9651-f4b012838520)
