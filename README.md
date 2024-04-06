@@ -4,8 +4,8 @@ The given code is a Python implementation of a numerical method for solving a sy
 The variables in the code represent physical quantities such as temperature, concentration, and velocity, and the code calculates various quantities such as skin friction, Nusselt number, and Sherwood number. The code also includes some constants and parameters that define the physical properties of the fluid and the plate, as well as the numerical parameters of the method.
 
 The program solves using three different methods: the Shooting Collocation Method (SCM), the Galerkin Weighted Residual Method (GWRM), and an Artificial Neural Network (ANN).
-1
-. **Constants**: The script defines various physical constants and parameters, such as density, viscosity, surface temperature, thermal conductivity, heat transfer coefficient, specific heat capacity, heat flux, length, area, volume, Prandtl number, and Rayleigh number.
+
+1. **Constants**: The script defines various physical constants and parameters, such as density, viscosity, surface temperature, thermal conductivity, heat transfer coefficient, specific heat capacity, heat flux, length, area, volume, Prandtl number, and Rayleigh number.
 
 2. **Shooting Collocation Method (SCM)**: The `solve_scm` function solves the problem using the SCM, which involves solving an initial value problem using the `solve_ivp` function from `scipy.integrate`.
 
